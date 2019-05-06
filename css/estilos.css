@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url('../fonts/BebasNeueRegular.otf');
+}
+body {
+    background-color: #FFEECC;
+}
+.sidenav {
+  height: 100%;
+  width: 16%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+	font-family: BebasNeueRegular;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #97a801;
+}
+.main {
+  margin-left: 16%; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 
+  10px;
+}
+h2 {
+	font-family: BebasNeueRegular;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: bold;
+	color: #97a800;
+	text-shadow: 1px 1px #000000;
+	text-align: center;
+}
+h2 a:hover {
+	color: #a8b900;
+}
+a:link {
+	text-decoration: none;
+	color:#333333;
+}
