@@ -87,6 +87,13 @@ p{
   text-align: center;
   font-family: Monda;
 }
+p a{
+  color: #a8b900;
+}
+p a:hover {
+  color: #a8b900;
+  text-decoration: underline;
+}
 img{
   display:block;
   margin:auto;
@@ -106,6 +113,18 @@ img{
 }
 .itemcontenido-bonta{
   flex:3 100%;
+}
+.credits{
+  font-family: Monda;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #FFFFFF;
+  display: block;
+  vertical-align: bottom;
+  position:absolute;
+  bottom:0px;
+  left:0px;
 }
 @media all and (min-width: 1200px) {
   .itemcontenido-juego{order:1;}
