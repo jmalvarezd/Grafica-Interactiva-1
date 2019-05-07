@@ -102,6 +102,7 @@ img{
 }
 .portada{
   width:100%;
+  border-radius:5%; 
 }
 .itemcontenido{
   font-family: sans-serif;
@@ -113,6 +114,9 @@ img{
 }
 .itemcontenido-bonta{
   flex:3 100%;
+}
+.itemcontenido-mapa{
+  flex:2 100%;
 }
 .credits{
   font-family: Monda;
