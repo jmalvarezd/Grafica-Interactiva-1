@@ -130,13 +130,16 @@ img{
   bottom:0px;
   left:0px;
 }
-@media all and (min-width: 1200px) {
+/* Si la pantalla tiene suficiente ancho, mostrar los objetos de la portada en un orden diferente */
+@media all and (min-width: 1200px) { 
   .itemcontenido-juego{order:1;}
   .itemcontenido-empresa{order:2;}
   .itemcontenido-bonta{order:3;}
 }
+/* Si la pantalla es demasiado pequeña, desaparecer el sidenav y justificar el texto */
 @media all and (max-width: 750px){
   .principal{margin-left:0%;}
   .sidenav{display:none;}
-  .p{text-align:justify;}
+  p{text-align:justify;}
+  .volver{text-align:center;}
 }
