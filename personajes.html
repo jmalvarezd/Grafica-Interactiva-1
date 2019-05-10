@@ -1,0 +1,61 @@
+<!doctype html>
+<!-- documento de ejemplo de reorganización de elementos y cambio de propiedades según el ancho de la pantalla del disposititvo de consulta  - realizado por el profesor Carlos Delgado para el curso Gráfica interactiva de la Universidad Nacional de Colombia-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ciudad de Bonta</title>
+		<link href="css/estilos.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	</head>
+
+	<body> <!-- Dividimos el body en dos partes, el sidenav y el principal-->
+		<nav class="sidenav"> 
+		    <a class="botonMenu" href="index.html" target="_self">Inicio</a>
+		    <a class="botonMenu" href="general.html" target="_self">Bonta</a>
+		    <a class="botonMenu" href="personajes.html" target="_self">Personajes</a>
+		    <a class="botonMenu" href="actividades.html" target="_self">Actividades</a>
+		    <a class="botonMenu" href="historia.html" target="_self">Historia</a>
+		    <a class="botonMenu" href="mapasitio.html" target="_self">Mapa del sitio</a>
+		    <div class="credits"><p>Hecho por: <br>
+		    Juan Manuel Alvarez Duque <br>
+			Grafica Interactiva 2019</p></div>
+		</nav>
+		<div class = "principal"> 
+			<div class = "titulo"> <!-- En el principal tenemos el titulo, comun para todas las paginas -->
+				<a name="start"></a> <!-- Marca para regresar al presionar el boton de volver al inicio -->
+				<h2><a href="index.html" target="_self">LA CIUDAD DE BONTA - PERSONAJES</a></h2>
+			</div>
+			<div class = "indice">
+				<h3>Indice:</h3>
+				<ol>
+					<li><a href="#GALDARION">GALDARION</a></li>
+					<li><a href="#JAHASH">JAHASH</a></li>
+					<li><a href="#AMAYIRO">AMAYIRO</a></li>
+				</ol>
+			</div>
+			<div class = "personajes"> <!-- El contenido de la pagina es un flexbox donde apareceran cada uno de los items a mostrar-->
+				<div class = "itempersonajes itemcontenido-perso1"> <!-- Una imagen de portada -->
+					<a name="GALDARION"></a><h3>GALDARION  - REY DE BONTA </h3> 
+					<a href="https://www.dofus.com/es/mmorpg/actualidad/noticias/444364-discurso-rey"><img src="imagenes/Rey.jpg" alt="Jahash" class="personaje"/></a>
+					<p>Desde el año 648, un nuevo soberano ha ocupado el trono de la ciudad de la luz.  <br>
+						Galdarion de Bonta es un soberano conocido por su benevolencia y perspicacia, que esta siempre acompañado de un misterioso mago llamado Gabi Lan, el Terraymar. </p>
+				</div>
+				<div class = "itempersonajes itemcontenido-perso2"> <!-- Una explicacion del juego -->
+					<a name="JAHASH"></a><h3>JAHASH JURGEN</h3> 
+					<a href="http://www.twipu.com/NahaOfficiel"><img src="imagenes/Jahash.jpg" alt="Jahash" class="personaje2"/></a>
+					<p>Jahash Jurgen, El Puro, fue el hipermago mas fuerte que ha conocido la ciudad de Bonta. Fue el guardian de el Dofus Marfil, una de las reliquias mas poderosas en existencia.  <br>
+						Sacrifico su vida en el año 645 para detener a Julith, quien utilizaba el Dofus Ebano con la intencion de destruir la ciudad.
+						 </p>
+				</div>
+				<div class = "itempersonajes itemcontenido-perso3"> <!-- Una explicacion de la empresa desarrolladora del juego -->
+					<a name="AMAYIRO"></a> <h3>AMAYIRO - JEFE DE MILICIA</h3>
+					<a href="https://dofuswiki.fandom.com/wiki/Amayiro"><img src="imagenes/Amayiro.jpg" alt="Amayiro" class="personaje"/></a>
+					<p>Amayiro es miembro del Consejo de Bonta. <br> Un experimentado maestro de la espada, establecio La Milicia para proteger la ciudad de los peligros que pretenden destruirla. <br>
+						Aun hoy lidera la fuerza elite que ayudo a crear.
+						 </p>
+				</div>
+			</div>
+			<p><a href="#top">Volver al inicio</a></p>
+		</div>
+	</body>
+</html>
