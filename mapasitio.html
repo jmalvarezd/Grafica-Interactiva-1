@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- documento de ejemplo de reorganización de elementos y cambio de propiedades según el ancho de la pantalla del disposititvo de consulta  - realizado por el profesor Carlos Delgado para el curso Gráfica interactiva de la Universidad Nacional de Colombia-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ciudad de Bonta</title>
+		<link href="css/estilos.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	</head>
+
+	<body> <!-- Dividimos el body en dos partes, el sidenav y el principal-->
+		<nav class="sidenav"> 
+		    <a class="botonMenu" href="index.html" target="_self">Inicio</a>
+		    <a class="botonMenu" href="general.html" target="_self">Bonta</a>
+		    <a class="botonMenu" href="personajes.html" target="_self">Personajes</a>
+		    <a class="botonMenu" href="actividades.html" target="_self">Actividades</a>
+		    <a class="botonMenu" href="historia.html" target="_self">Historia</a>
+		    <a class="botonMenu" href="mapasitio.html" target="_self">Mapa del sitio</a>
+		    <div class="credits"><p>Hecho por: <br>
+		    Juan Manuel Alvarez Duque <br>
+			Grafica Interactiva 2019</p></div>
+		</nav>
+		<div class = "principal"> 
+			<div class = "titulo"> <!-- En el principal tenemos el titulo, comun para todas las paginas -->
+				<a name="start"></a> <!-- Marca para regresar al presionar el boton de volver al inicio -->
+				<h2><a href="index.html" target="_self">LA CIUDAD DE BONTA - PERSONAJES</a></h2>
+			</div>
+			<div class = "personajes"> <!-- El contenido de la pagina es un flexbox donde apareceran cada uno de los items a mostrar-->
+				<div class = "itempersonajes "> <!-- Una imagen de portada -->
+					<a name="MAPA"></a><h3>MAPA DEL SITIO </h3> 
+					<img src="imagenes/mapasitio.png" alt="Mapa del Sitio" />
+				</div>
+				<div class = "itempersonajes itemcontenido-perso2"> <!-- Una explicacion del juego -->
+					<a name="REFERENCIAS"></a><h3>REFERENCIAS</h3> 
+					<ol class="indice">
+						<li>Imagenes:
+							<a href="http://www.twipu.com/NahaOfficiel"> 1 </a>
+							<a href="https://www.dofus.com/es/mmorpg/actualidad/noticias/444364-discurso-rey"> 2 </a>
+							<a href="https://dofuswiki.fandom.com/wiki/Amayiro"> 3 </a>
+							<a href="http://alineamientodofus.blogspot.com/2016/10/como-pertenecer-una-alineacion.html"> 4 </a>
+						</li>
+						<li> 
+							<a href="https://www.dofus.com/es">Sitio Dofus</a>
+						</li>
+						<li> 
+							<a href="https://en.wikipedia.org/wiki/Ankama"> Wikipedia Ankama </a>
+						</li>
+						<li> 
+							<a href="https://www.wakfu.com/es/foro/8-charlas-generales/126159-lore-historia-krosmoz-mundo-doce?page=2#entry758881"> Historia </a>
+						</li>
+					</ol>
+			</div>
+			<p><a href="#top">Volver al inicio</a></p>
+		</div>
+	</body>
+</html>

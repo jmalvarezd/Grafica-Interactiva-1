@@ -1,0 +1,53 @@
+<!doctype html>
+<!-- documento de ejemplo de reorganización de elementos y cambio de propiedades según el ancho de la pantalla del disposititvo de consulta  - realizado por el profesor Carlos Delgado para el curso Gráfica interactiva de la Universidad Nacional de Colombia-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ciudad de Bonta</title>
+		<link href="css/estilos.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	</head>
+
+	<body> <!-- Dividimos el body en dos partes, el sidenav y el principal-->
+		<nav class="sidenav"> 
+		    <a class="botonMenu" href="index.html" target="_self">Inicio</a>
+		    <a class="botonMenu" href="general.html" target="_self">Bonta</a>
+		    <a class="botonMenu" href="personajes.html" target="_self">Personajes</a>
+		    <a class="botonMenu" href="actividades.html" target="_self">Actividades</a>
+		    <a class="botonMenu" href="historia.html" target="_self">Historia</a>
+		    <a class="botonMenu" href="mapasitio.html" target="_self">Mapa del sitio</a>
+		    <div class="credits"><p>Hecho por: <br>
+		    Juan Manuel Alvarez Duque <br>
+			Grafica Interactiva 2019</p></div>
+		</nav>
+		<div class = "principal"> 
+			<div class = "titulo"> <!-- En el principal tenemos el titulo, comun para todas las paginas -->
+				<a name="start"></a> <!-- Marca para regresar al presionar el boton de volver al inicio -->
+				<h2><a href="index.html" target="_self">LA CIUDAD DE BONTA - HISTORIA</a></h2>
+			</div>
+			<div class = "personajes"> <!-- El contenido de la pagina es un flexbox donde apareceran cada uno de los items a mostrar-->
+				<div class = "itempersonajes itemcontenido-perso1"> <!-- Una primera seccion -->
+					<a name="FUNDACION"></a><h3>FUNDACION</h3> 
+					<a href="https://www.dofus.com/es/foro/4-charlas-generales/50427-mejor-bonta-o-brakmar"><img src="imagenes/fundacion.jpg" alt="Joris Jurgen" class="personaje"/></a>
+					<p>
+						<b>Djaul</b>, protector del mes de Diciembre, fundo en el año 23 la ciudad de <b>Brakmar</b>. Una ciudad al sur del continente Amakneano que representa todos los males de los demonios. <br>
+						En respuesta, <b>Jiva, Menalt y Pouchecot</b>, otros tres protectores de los meses, fundaron la ciudad de <b>Bonta</b>, la Blanca, representando sus valores.<br>
+						Estas dos ciudades del todo opuestas serían rivales desde su nacimiento. Y, muy pronto, sus disputas llegarían a alcanzar dimensiones devastadoras... En el año 26, la guerra se declaró oficialmente: fue la primera batalla de <b>la Aurora Púrpura</b>.
+
+					</p>
+				</div>
+				<div class = "itempersonajes itemcontenido-perso2"> <!-- Una segunda seccion -->
+					<a name="AURORA"></a><h3>LA AURORA PURPURA</h3> 
+					<a href="http://www.twipu.com/NahaOfficiel"><img src="imagenes/aurora-purpura.jpg" alt="Jahash" class="personaje2"/></a>
+					<p>
+						<b>Hyrkul</b> el Tendencioso, poderoso seguidor de <b>Djaul</b>, había tomado el comando de la armada brakmariana. Pero terminó encontrando la muerte contra <b>Ulgrude</b>, un robusto caballero, enviado por los dioses.<br><br>
+
+						El enfrentamiento llegó a su fin, y de <b>Bonta y Brakmar</b> solo quedaban cenizas. Las ciudades encontrarian tregua por los proximos años de reconstruccion, pero nunca se declararia la paz. 
+
+					</p>
+				</div>
+			</div>
+			<p><a href="#top">Volver al inicio</a></p>
+		</div>
+	</body>
+</html>
